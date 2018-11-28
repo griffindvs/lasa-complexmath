@@ -17,3 +17,5 @@ class Complex {
 		Complex();
 		Complex(double r, double i=0.0);
 };
+
+#endif
