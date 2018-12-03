@@ -20,6 +20,9 @@ class Complex {
       void operator*= (Complex* rhs);
       Complex operator/ (Complex* rhs);
       void operator/= (Complex* rhs);
+      
+      double abs();
+      double arg();
 };
 
 #endif
