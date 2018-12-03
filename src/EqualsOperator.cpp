@@ -1,6 +1,9 @@
 #include "ComplexMath.h"
 using namespace std;
 
-Complex Complex:: operator= (Complex* rhs){
-   
+void Complex:: operator= (Complex* rhs){
+   Complex finalComplex = *this;
+   finalComplex.re = rhs->re;
+   finalComplex.im = rhs->im;
+   *this = finalComplex;
 }

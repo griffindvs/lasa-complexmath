@@ -7,20 +7,19 @@ using namespace std;
 
 class Complex {
 	double re, im;
-// 	friend Complex operator+ (Complex& lhs, Complex* rhs);
-//    friend Complex operator+= (Complex& lhs, Complex* rhs);
-//    friend Complex operator- (Complex& lhs, Complex* rhs);
-//    friend Complex operator-= (Complex& lhs, Complex* rhs);
-//    friend Complex operator* (Complex& lhs, Complex* rhs);
-//    friend Complex operator*= (Complex& lhs, Complex* rhs);
-//    friend Complex operator/ (Complex& lhs, Complex* rhs);
-//    friend Complex operator/= (Complex& lhs, Complex* rhs);
-//    friend Complex operator= (Complex& lhs, Complex* rhs);
 
 	public:
 		Complex();
 		Complex(double r, double i=0.0);
-      HelloWorld();
+      void operator= (Complex* rhs);
+      Complex operator+ (Complex* rhs);
+      void operator+= (Complex* rhs);
+      Complex operator- (Complex* rhs);
+      void operator-= (Complex* rhs);
+      Complex operator* (Complex* rhs);
+      void operator*= (Complex* rhs);
+      Complex operator/ (Complex* rhs);
+      void operator/= (Complex* rhs);
 };
 
 #endif
