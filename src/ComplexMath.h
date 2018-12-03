@@ -7,7 +7,7 @@ using namespace std;
 
 class Complex {
 	double re, im;
-	friend Complex operator+ (Complex& lhs, Complex* rhs);
+// 	friend Complex operator+ (Complex& lhs, Complex* rhs);
 //    friend Complex operator+= (Complex& lhs, Complex* rhs);
 //    friend Complex operator- (Complex& lhs, Complex* rhs);
 //    friend Complex operator-= (Complex& lhs, Complex* rhs);
