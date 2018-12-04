@@ -7,7 +7,7 @@ Complex::Complex() {
 	im = 0.0;
 }
 
-Complex::Complex(double r, double i = 0.0) {
+Complex::Complex(double r, double i) {
 	re = r;
 	im = i;
 }
