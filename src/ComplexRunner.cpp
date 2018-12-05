@@ -10,7 +10,7 @@ int main ()
    cout << "Hello World" << endl;
    
    
-     complex a(5.0,6.0),b;
+     Complex a(5.0,6.0),b;
    
      cout << "Enter b: ";
      cin >> b;
