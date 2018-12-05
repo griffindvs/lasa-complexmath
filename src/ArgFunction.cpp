@@ -9,5 +9,5 @@ double Complex::arg(){
    x = this->re;
    
    double angle;
-   angle = cmath.atan(y/x);
+   angle = atan(y/x);
 }
