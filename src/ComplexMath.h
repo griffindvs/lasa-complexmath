@@ -11,8 +11,8 @@ class Complex {
    friend istream& operator>>(istream&, const Complex&);
 
 	public:
-		Complex();
-		Complex(double r, double i=0.0);
+      Complex();
+      Complex(double r, double i=0.0);
       void operator= (Complex* rhs);
       Complex operator+ (Complex* rhs);
       void operator+= (Complex* rhs);
@@ -25,7 +25,7 @@ class Complex {
 
       double abs();
       double arg();
-			Complex conj();
+		Complex conj();
 };
 
 #endif
