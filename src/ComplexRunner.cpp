@@ -1,6 +1,6 @@
+#include "ComplexMath.h"
 #include <stdlib.h>
 #include <iostream>
-#include <complex.h>
 
 using namespace std;
 
@@ -18,14 +18,17 @@ int main ()
      cout << "a = " << a << "\n";
      cout << "b = " << b << "\n";
    
-     cout << "a + b = " << a + b << "\n";
+     //cout << "a + b = " << a + b << "\n";
      cout << "a * b = " << a * b << "\n";
-     cout << "a / b = " << a / b << "\n";
+     //cout << "a / b = " << a / b << "\n";
      cout << "|a| = "   << abs(a) << "\n";
      cout << "complex conjugate of a = " << conj(a) << "\n";
-     cout << "norm of a = " << norm(a) << "\n";
+     //cout << "norm of a = " << norm(a) << "\n";
      cout << "abs of a = " << abs(a) << "\n";
-     cout << "exp(a) = " << exp(a) << "\n";
+     //cout << "exp(a) = " << exp(a) << "\n";
+     
+     cout << "Group Tests:" << "\n";
+     cout << "Arg of a = " << arg(a);
 
    
    
