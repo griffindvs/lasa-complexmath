@@ -21,7 +21,7 @@ class Complex {
    void operator+= (Complex* rhs);
    Complex operator- (Complex* rhs);
    void operator-= (Complex* rhs);
-   Complex operator* (Complex* rhs);
+   Complex operator* (Complex& rhs);
    void operator*= (Complex* rhs);
    Complex operator/ (Complex* rhs);
    void operator/= (Complex* rhs);
