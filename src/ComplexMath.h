@@ -17,7 +17,7 @@ class Complex {
    Complex();
    Complex(double r, double i=0.0);
    void operator= (Complex* rhs);
-   Complex operator+ (Complex& rhs);
+   Complex operator+ (Complex* rhs);
    void operator+= (Complex* rhs);
    Complex operator- (Complex* rhs);
    void operator-= (Complex* rhs);
