@@ -1,4 +1,4 @@
-#include "ComplexMath.h"
+#include "COMPLEXMATH.h"
 #include <iostream>
 
 using namespace std;

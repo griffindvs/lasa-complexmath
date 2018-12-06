@@ -1,11 +1,5 @@
-/*
-MultiplyEqualsOperator
-Travis Eaves
-Created 12/3/18
-Desc: operator overload of *= for complex multiplication
-Modified: 12/3/18
-*/
-#include "ComplexMath.h"
+#include "COMPLEXMATH.h"
+
 using namespace std;
 
 void Complex::operator*= (Complex* rhs)

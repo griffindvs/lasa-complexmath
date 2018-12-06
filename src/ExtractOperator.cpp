@@ -1,5 +1,5 @@
 #include "ComplexMath.h"
-#include "ComplexMath.h"
+#include "COMPLEXMATH.h"
 #include <string>
 #include <stdlib.h>
 
