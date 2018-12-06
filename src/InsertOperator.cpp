@@ -1,7 +1,9 @@
 #include "ComplexMath.h"
+#include <iostream>
 
 using namespace std;
 
-ostream& operator<< (ostream& lhs, Complex& rhs){
-   lhs << "(" << rhs->re << ", " << rhs->im << ")";
+ostream& operator<< (ostream& lhs, const Complex& rhs){
+   lhs << "(" << rhs.re << ", " << rhs.im << ")";
+   return lhs;
 }
