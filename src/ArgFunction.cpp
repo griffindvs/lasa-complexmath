@@ -3,10 +3,10 @@
 
 using namespace std;
 
-double Complex::arg(){
+double arg(Complex c){
    double y, x;
-   y = this->im;
-   x = this->re;
+   y = c.im;
+   x = c.re;
    
    double angle;
    angle = atan(y/x);
