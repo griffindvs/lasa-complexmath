@@ -11,7 +11,7 @@ using namespace std;
 class Complex {
    double re, im;
    friend ostream& operator<<(ostream& lhs, const Complex& rhs);
-   friend void operator>>(istream& lhs, const Complex& rhs);
+   friend void operator>>(istream& lhs, Complex rhs);
    friend double abs(Complex c);
    friend double arg(Complex c);
    friend Complex conj(Complex c);
