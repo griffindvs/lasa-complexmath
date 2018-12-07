@@ -1,11 +1,9 @@
 #include "ComplexMath.h"
 #include "COMPLEXMATH.h"
-#include <string>
-#include <stdlib.h>
 
 using namespace std;
 
-Complex operator>> (istream& lhs, string input){
+void operator>> (istream& lhs, Complex c){
    int comma = input.find(',');
    double real;
    double imag;

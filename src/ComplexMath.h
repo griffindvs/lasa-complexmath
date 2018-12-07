@@ -2,16 +2,22 @@
 #define ComplexMath
 
 #include <iostream>
+#include <string>
+#include <cmath>
+#include <stdlib.h>
 
 using namespace std;
 
 class Complex {
    double re, im;
    friend ostream& operator<<(ostream& lhs, const Complex& rhs);
-   friend Complex operator>>(istream& lhs, Complex& rhs);
+   friend void operator>>(istream& lhs, const Complex& rhs);
    friend double abs(Complex c);
    friend double arg(Complex c);
    friend Complex conj(Complex c);
+   friend double imag(Complex c);
+   friend double real(Complex c);
+   friend double norm(Complex c);
 
 	public:
       Complex();

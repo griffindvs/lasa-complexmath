@@ -1,5 +1,4 @@
 #include "COMPLEXMATH.h"
-#include <cmath>
 
 using namespace std;
 
