@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void Complex:: operator-= (Complex* rhs){
+void Complex:: operator-= (Complex& rhs){
    Complex initialComplex = *this;
    initialComplex = initialComplex - rhs;
    *this = initialComplex;
