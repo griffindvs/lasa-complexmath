@@ -1,11 +1,9 @@
-Complex& Complex::operator/= (const Complex& rhs) {
-    Complex finalComplex;
+#include "COMPLEXMATH.h"
 
-    double divisor = (rhs.re * rhs.re) + (rhs.im * rhs.im);
-    double num_re = (this->re * rhs.re) + (this->im * rhs.im);
-    double num_img = (this->im * rhs.re) - (this->re * rhs.im);
+using namespace std;
 
-    this->re = num_re/divisor;
-    this->im = num_img/divisor;
-    return finalComplex;
+void Complex::operator/= (Complex* rhs){
+   Complex initialComplex = *this;
+   initialComplex = initialComplex / rhs;
+   *this = initialComplex;
 }
