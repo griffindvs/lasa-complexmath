@@ -2,7 +2,7 @@
 
 using namespace std;
 
-Complex Complex::operator/ (Complex& rhs) {
+Complex Complex::operator/ (const Complex& rhs) {
     Complex finalComplex;
 
     double divisor = (rhs.re * rhs.re) + (rhs.im * rhs.im);

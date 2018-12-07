@@ -16,15 +16,15 @@ class Complex {
 	public:
       Complex();
       Complex(double r, double i=0.0);
-      void operator= (Complex& rhs);
-      Complex operator+ (Complex& rhs);
-      void operator+= (Complex& rhs);
-      Complex operator- (Complex& rhs);
-      void operator-= (Complex& rhs);
-      Complex operator* (Complex& rhs);
-      void operator*= (Complex& rhs);
-      Complex operator/ (Complex& rhs);
-      void operator/= (Complex& rhs);
+      void operator= (const Complex& rhs);
+      Complex operator+ (const Complex& rhs);
+      void operator+= (const Complex& rhs);
+      Complex operator- (const Complex& rhs);
+      void operator-= (const Complex& rhs);
+      Complex operator* (const Complex& rhs);
+      void operator*= (const Complex& rhs);
+      Complex operator/ (const Complex& rhs);
+      void operator/= (const Complex& rhs);
 };
 
 #endif
