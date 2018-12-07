@@ -4,17 +4,21 @@
 using namespace std;
 
 void operator>> (istream& lhs, Complex c){
-   int comma = input.find(',');
+
+   string a;
+   lhs >> a;
+
+   int comma = a.find(',');
    double real;
    double imag;
-   
+
    if (comma != -1) {
-      real = atof(input.substr(1, comma-1).c_str());
-      imag = atof(input.substr(comma+1, input.length()-comma-2).c_str());
+      real = atof(a.substr(1, comma-1).c_str());
+      imag = atof(a.substr(comma+1, a.length()-comma-2).c_str());
    } else {
-      real = atof(input.c_str());
+      real = atof(a.c_str());
       imag = 0;
    }
    Complex output = (real, imag);
-   return output;
+   c = output;
 }
