@@ -7,7 +7,6 @@ Modified: 12/7/18
 */
 
 #include "ComplexMath.h"
-#include <cmath>
 using namespace std;
 
 double imag(Complex c)
