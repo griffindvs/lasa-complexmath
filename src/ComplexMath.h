@@ -23,7 +23,7 @@ class Complex {
 	public:
       Complex();
       Complex(double r, double i=0.0);
-      void operator= (const Complex& rhs);
+      Complex& operator= (const Complex& rhs);
       Complex operator+ (const Complex& rhs);
       void operator+= (const Complex& rhs);
       Complex operator- (const Complex& rhs);
