@@ -9,8 +9,7 @@ Complex Complex::operator/ (const Complex& rhs) {
     double num_re = (this->re * rhs.re) + (this->im * rhs.im);
     double num_img = (this->im * rhs.re) - (this->re * rhs.im);
 
-    this->re = num_re/divisor;
-    this->im = num_img/divisor;
+    finalComplex.re = num_re/divisor;
+    finalComplex.im = num_img/divisor;
     return finalComplex;
 }
-
