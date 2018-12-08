@@ -1,9 +1,6 @@
-#include "COMPLEXMATH.h"
-#include <stdlib.h>
-#include <iostream>
+#include "src/COMPLEXMATH.h"
 
 using namespace std;
-
 
 int main ()
 {
@@ -11,6 +8,10 @@ int main ()
    
    //======Personal Tests======
    cout << "Personal Tests:" << endl;
+   cout << "Running cin: " << endl;
+   Complex input;
+   cin >> input;
+   cout << "input: " << input << endl;
    Complex griffin(1.0,2.0);
    Complex taka(3.0,4.0);
    cout << "griffin= " << griffin << endl;
@@ -25,9 +26,10 @@ int main ()
    cout << "norm(g)= " << norm(griffin) << endl;
    cout << "imag(g)= " << imag(griffin) << endl;
    cout << "real(g)= " << real(griffin) << endl;
-   cout << "PAUSE" << endl;
-   int pauseInt;
-   cin << pauseInt;
+   cout << "Press any key to continue..." << endl;
+   int pause;
+   cin >> pause;
+   
    //====End Personal Tests====
    
 //      Complex a(5.0,6.0),b;
