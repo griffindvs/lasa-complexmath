@@ -16,6 +16,9 @@ int main ()
    Complex taka(3.0,4.0);
    cout << "griffin= " << griffin << endl;
    cout << "taka= " << taka << endl;
+   cout << "Press any key to continue..." << endl;
+   int pause;
+   cin >> pause;
    cout << "g+t= " << griffin + taka << endl;
    cout << "g-t= " << griffin - taka << endl;
    cout << "g*t= " << griffin * taka << endl;
@@ -26,9 +29,6 @@ int main ()
    cout << "norm(g)= " << norm(griffin) << endl;
    cout << "imag(g)= " << imag(griffin) << endl;
    cout << "real(g)= " << real(griffin) << endl;
-   cout << "Press any key to continue..." << endl;
-   int pause;
-   cin >> pause;
    
    //====End Personal Tests====
    
