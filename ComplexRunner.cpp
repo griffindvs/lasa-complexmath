@@ -26,7 +26,7 @@ int main ()
    cout << "norm(g)= " << norm(griffin) << endl;
    cout << "imag(g)= " << imag(griffin) << endl;
    cout << "real(g)= " << real(griffin) << endl;
-   cout << "Press any key to continue..." << endl;
+   cout << "Input a character and press enter to continue..." << endl;
    int pause;
    cin >> pause;
 
