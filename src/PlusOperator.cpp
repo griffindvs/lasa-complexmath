@@ -1,10 +1,18 @@
+/* 
+Title : PlusOperator
+Author : Danika Luo
+Description : Addition Operator for Complex Numbers
+Created : 12/3/18
+Modified : 12/10/18 
+*/
+
 #include "COMPLEXMATH.h"
 
 using namespace std;
 
 Complex Complex:: operator+ (const Complex& rhs){
    Complex finalComplex = rhs;
-   finalComplex.re = this->re + rhs.re;
-   finalComplex.im = this->im + rhs.im;
+   finalComplex.re = this->re + rhs.re; //Add real part
+   finalComplex.im = this->im + rhs.im; //Add imaginary part
    return finalComplex;
 }
