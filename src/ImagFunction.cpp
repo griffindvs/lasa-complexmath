@@ -11,5 +11,5 @@ Modified : 12/10/18
 using namespace std;
 
 double imag(Complex c){
-   return c.im;
+   return c.im; //return imaginary part of complex number c
 }

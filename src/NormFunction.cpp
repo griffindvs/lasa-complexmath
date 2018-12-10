@@ -11,7 +11,7 @@ Modified : 12/10/18
 using namespace std;
 
 double norm(Complex c) {
-   double norm;
-   norm = (c.re)*(c.re) + (c.im)*(c.im);
-   return norm;
+   double norm; //create varible for the norm
+   norm = (c.re)*(c.re) + (c.im)*(c.im); //set norm as sum of real component squared and imaginary component squared
+   return norm; //return the norm
 }
