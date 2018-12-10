@@ -31,30 +31,32 @@ int main ()
 //    cin >> pause;
    //====End Personal Tests====
 
-     Complex a(5.0,6.0),b;
+  Complex a(5.0,6.0),b;
 
-     cout << "Enter b: ";
-     cin >> b;
+  cout << "Enter b: ";
+  cin >> b;
 
-     cout << "a = " << a << "\n";
-     cout << "b = " << b << "\n";
+  cout << "a = " << a << "\n";
+  cout << "b = " << b << "\n";
 
-     cout << "a + b = " << a + b << "\n";
-     cout << "a - b = " << a - b << "\n";
-     cout << "a * b = " << a * b << "\n";
-     cout << "a / b = " << a / b << "\n";
-     cout << "|a| = "   << abs(a) << "\n";
-     cout << "complex conjugate of a = " << conj(a) << "\n";
-     cout << "norm of a = " << norm(a) << "\n";
-     cout << "abs of a = " << abs(a) << "\n";
-     //cout << "exp(a) = " << exp(a) << "\n";
+  cout << "a + b = " << a + b << "\n";
+  cout << "a - b = " << a - b << "\n";
+  cout << "a * b = " << a * b << "\n";
+  cout << "a / b = " << a / b << "\n";
+  cout << "|a| = "   << abs(a) << "\n";
+  cout << "complex conjugate of a = " << conj(a) << "\n";
+  cout << "norm of a = " << norm(a) << "\n";
+  cout << "abs of a = " << abs(a) << "\n";
+  //cout << "exp(a) = " << exp(a) << "\n";
 
-     cout << "Group Tests:" << "\n";
-     cout << "Arg of a = " << arg(a);
-     cout << "Imag of a = " << imag(a);
-     cout << "Real of a = " << real(a);
+  cout << "Group Tests:" << "\n";
+  cout << "Arg of a = " << arg(a) << endl;
+  cout << "Imag of a = " << imag(a) << endl;
+  cout << "Real of a = " << real(a) << endl;
 
-
+      cout << "Input a character and press enter to continue..." << endl;
+      int pause;
+      cin >> pause;
 
    /*
     _Complex j = _Complex(0.0,1.0);
