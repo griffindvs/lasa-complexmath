@@ -1,3 +1,10 @@
+/*
+MultipyOperator
+Travis Eaves
+Created: 11/28/18
+Desc: operator overload of * for complex multiplication
+Modified 12/10/18
+*/
 #include "COMPLEXMATH.h"
 
 using namespace std;
