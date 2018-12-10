@@ -11,16 +11,16 @@ Modified : 12/10/18
 using namespace std;
 
 istream& operator>> (istream& lhs, Complex& c){
-   string a;
-   lhs >> a;
+   string input;
+   lhs >> input; //Takes the inputted string in the form (a,b) and stores it into 'input'
    double re;
    double im;
-   int i = a.find(',');
-   re = atof(a.substr(1,i-1).c_str());
-   im = atof(a.substr(i+1, a.length()-2-i).c_str());
+   int i = input.find(',');
+   re = atof(input.substr(1,i-1).c_str()); // Parses the input to find the double for 'a'
+   im = atof(input.substr(i+1, input.length()-2-i).c_str()); // Parses the input to find the double for 'b'
 
-   Complex b(re,im);
+   Complex parsedComplex(re,im);
 
-   c = b;
+   c = parsedComplex; // Sets the rhs Complex 'c' to a generated 'parsedComplex' made from the parsed string
    return lhs;
 }

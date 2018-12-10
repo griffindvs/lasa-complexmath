@@ -12,6 +12,6 @@ using namespace std;
 
 void Complex:: operator-= (const Complex& rhs){
    Complex initialComplex = *this;
-   initialComplex = initialComplex - rhs;
+   initialComplex = initialComplex - rhs; // Calls the - operator overload and the assignment operator overload to compute the difference and store the result to lhs
    *this = initialComplex;
 }
