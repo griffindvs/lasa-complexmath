@@ -1,3 +1,11 @@
+/*
+Title : ExtractOperator
+Author : Taka Koutsomitopoulos
+Description : Overloads the extract operator to allow a (a,b) string to be parsed directly to a Complex object.
+Created : 12/4/18
+Modified : 12/10/18
+*/
+
 #include "COMPLEXMATH.h"
 
 using namespace std;
