@@ -11,5 +11,5 @@ Modified : 12/10/18
 using namespace std;
 
 double real(Complex c){
-   return c.re;
+   return c.re; //return real part of complex number c
 }

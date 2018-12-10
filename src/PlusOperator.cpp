@@ -1,7 +1,7 @@
 /* 
 Title : PlusOperator
 Author : Danika Luo
-Description : Addition Operator for Complex Numbers
+Description : Operator overload of + for complex addition
 Created : 12/3/18
 Modified : 12/10/18 
 */
