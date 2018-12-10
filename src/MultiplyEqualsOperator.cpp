@@ -11,6 +11,6 @@ using namespace std;
 
 void Complex::operator*= (const Complex& rhs){
    Complex initialComplex = *this;
-   initialComplex = initialComplex * rhs;
+   initialComplex = initialComplex * rhs;//overloaded * operator for complex
    *this = initialComplex;
 }
