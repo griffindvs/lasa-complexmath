@@ -1,9 +1,9 @@
 /*
-AbsFunction
-Travis Eaves
-Created 12/3/18
-Desc: absolute value function for complex numbers, returns magnitude
-Modified: 12/3/18
+Title: AbsFunction
+Author: Travis Eaves
+Description: absolute value function for complex numbers, returns magnitude
+Created: 12/3/18
+Modified: 12/10/18
 */
 #include "COMPLEXMATH.h"
 

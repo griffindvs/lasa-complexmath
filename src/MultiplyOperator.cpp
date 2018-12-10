@@ -1,9 +1,9 @@
 /*
-MultipyOperator
-Travis Eaves
+Title: MultipyOperator
+Author: Travis Eaves
+Description: operator overload of * for complex multiplication
 Created: 11/28/18
-Desc: operator overload of * for complex multiplication
-Modified 12/10/18
+Modified: 12/10/18
 */
 #include "COMPLEXMATH.h"
 

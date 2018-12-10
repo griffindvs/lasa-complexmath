@@ -1,8 +1,8 @@
 /*
-MultiplyEqualsOperator
-Travis Eaves
-Created 12/3/18
-Desc: operator overload of *= for complex multiplication
+Title: MultiplyEqualsOperator
+Author: Travis Eaves
+Description: operator overload of *= for complex multiplication
+Created: 12/3/18
 Modified: 12/10/18
 */
 #include "COMPLEXMATH.h"
