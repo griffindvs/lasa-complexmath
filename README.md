@@ -16,5 +16,5 @@ This is a C++ library built to handle mathematical operations and functions for 
    - The `*.o` will add every compiled C++ file in the directory
 3. The library contents can be verified with `ar -t ComplexLibrary.a`
 
-### Testing the Static Library
+### Testing the Static Library for Windows
 To run the ComplexRunner.cpp file, use the command `g++ ComplexRunner.cpp -o ComplexRunner.exe ComplexLibrary.a` in the main directory. This will create `ComplexRunner.exe` that is linked to the static library. To run the file, type `ComplexRunner` into the terminal.
